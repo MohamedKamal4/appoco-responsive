@@ -1,0 +1,532 @@
+/*strat section one*/
+
+
+.one {
+    height: 600px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.one .boxs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one .boxs .left-box,
+.one .boxs .right-box {
+    width: 50%;
+    height: 100%;
+}
+
+.one .boxs .left-box {
+    padding: 7% 0;
+}
+
+.one .boxs .left-box p {
+    font-size: 15px;
+    color: #2b044d;
+    padding: 10px 0;
+}
+
+.one .boxs .left-box h1 {
+    font-size: 70px;
+    color: #2b044d;
+    margin-bottom: 10px;
+}
+
+.one .boxs .left-box .change-color {
+    color: gray;
+    font-size: 18px;
+}
+
+.one .boxs .left-box .btn {
+    width: 40%;
+    height: 15%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.one .boxs .left-box .btn a {
+    width: fit-content;
+    padding: 15px 50px;
+    border-radius: 50px;
+    background: #f9218d;
+    color: white;
+    text-transform: capitalize;
+}
+
+.one .boxs .left-box .btn .icon {
+    width: 50px;
+    height: 50px;
+    padding: unset;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d852e8;
+}
+
+.one .boxs .left-box .btn .icon i {
+    color: white;
+}
+
+.one .boxs .right-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one .boxs .right-box img {
+    width: 450px;
+    margin-left: 80px;
+}
+
+
+
+/*end section one*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*start section two*/
+
+
+.two {
+    height: 800px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 100px;
+}
+
+.two .boxs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.two .boxs .left-box,
+.two .boxs .right-box {
+    width: 50%;
+    height: 100%;
+}
+
+
+.two .boxs .left-box {
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.two .boxs .left-box img {
+    width: 450px;
+}
+
+
+.two .boxs .right-box h2 {
+    width: 100%;
+    height: 20%;
+    font-size: 50px;
+}
+
+.two .boxs .right-box .boxs {
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.two .boxs .right-box .boxs .box1 {
+    width: 49%;
+    height: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.two .boxs .right-box .boxs .box1 .text {
+    width: 50%;
+}
+
+.two .boxs .right-box .boxs .box1 .text h3 {
+    font-size: 25px;
+}
+
+.two .boxs .right-box .boxs .box1 .text p {
+    font-size: 15px;
+    color: gray;
+}
+
+.two .boxs .right-box .boxs .box1 .icon {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.two .boxs .right-box .boxs .box1 .icon i {
+    width: 67px;
+    height: 67px;
+    margin-top: 40px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-image: -webkit-linear-gradient(90deg, #e78ae9 0%, #926ef8 100%)
+}
+
+/*end section two*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*start section three*/
+
+
+.three {
+    height: 900px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.three .text {
+    width: 50%;
+    height: 18%;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+.three .boxs {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.three .boxs .box1 {
+    width: 32%;
+    height: 80%;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.three .boxs .box1 img {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    right: 80px;
+
+}
+
+.three .boxs .box1:hover img {
+    position: absolute;
+    right: 55px;
+    transition: 0.5s;
+}
+
+.three .boxs .box1:hover .icon i {
+    background-color: #835ef8;
+    transition: 0.5s;
+}
+
+.three .boxs .box1:hover {
+    border: 1px solid #835ef8;
+    transition: 0.5s;
+}
+
+.three .boxs .box1 .icon {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.three .boxs .box1 .icon i {
+    width: 105px;
+    height: 105px;
+    background-color: #e88cea;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    z-index: 1000;
+    margin-bottom: 20px;
+}
+
+.three .boxs .box1 .title h3 {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.three .boxs .box1 .title h3:hover {
+    color: #835ef8;
+    cursor: pointer;
+}
+
+.three .boxs .box1 .title p {
+    width: 100%;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+
+/*end section three*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*start section four*/
+
+
+.four {
+    padding-right: unset;
+    height: 700px;
+}
+
+.four .boxs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.four .boxs .left-box,
+.four .boxs .right-box {
+    height: 80%;
+}
+
+.four .boxs .left-box {
+    width: 40%;
+    padding: 15% 0;
+}
+
+.four .boxs .right-box {
+    width: 60%;
+    background-image: url(./img/section-four/1.webp);
+}
+
+.four .boxs .left-box h2 {
+    font-size: 40px;
+    width: 300px;
+    color: #2b044d;
+}
+
+.four .boxs .left-box p {
+    padding: 20px 60px 0 0;
+}
+
+
+/*end section four*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*start section five*/
+
+
+.five {
+    height: 600px;
+    background: url(/img/section-five/best_pricingbg.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    padding: unset;
+    margin-bottom: 500px;
+    margin-top: 200px;
+}
+
+.five .back-color {
+    padding: 0 80px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: -webkit-linear-gradient(0deg, #f9218dec 0%, #6e19f6ec 100%);
+}
+
+.five .back-color .text {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.five .back-color .text h2 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.five .back-color .boxs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.five .back-color .boxs .box .one {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: -100px;
+    right: -50px;
+}
+
+.five .back-color .boxs .box {
+    width: 31%;
+    height: 95%;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.five .back-color .boxs .box:hover {
+    border: 1px solid #f9218d;
+    transition: 0.5s;
+}
+
+.five .back-color .boxs .box:hover .btn a {
+    background-color: #f9218d;
+    transition: 1.5s;
+}
+
+.five .back-color .boxs .box .dis {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.336);
+}
+
+.five .back-color .boxs .box .dis h3 {
+    font-size: 30px;
+    color: #6a56a6;
+    text-transform: capitalize;
+}
+
+.five .back-color .boxs .box .dis p {
+    font-size: 20px;
+    color: #6a56a6;
+    text-transform: capitalize;
+}
+
+.five .back-color .boxs .box .dis p span {
+    font-size: 50px;
+}
+
+.five .back-color .boxs .box .stars {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.five .back-color .boxs .box .stars p {
+    font-size: 20px;
+    color: gray;
+}
+
+.five .back-color .boxs .box .btn {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.five .back-color .boxs .box .btn a {
+    color: white;
+    text-transform: capitalize;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: #712fda;
+}
+
+/*end section five*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*start section six*/
+
+
+.six {
+    height: 700px;
+}
+
+.six .text {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six .text h2 {
+    width: 500px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.six .boxs {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.six .boxs .box {
+    width: 32%;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.021);
+    padding: 15px;
+}
+
+.six .boxs .box img {
+    width: 80px;
+}
+
+.six .boxs .box h3 {
+    padding: 20px 0;
+    font-size: 25px;
+    color: #926ef8;
+    font-weight: 300;
+}
+
+.six .boxs .box p {
+    width: 300px;
+    font-size: 18px;
+    color: gray;
+}
+
+.six .boxs .blur {
+    opacity: 0.5;
+}
+
+/*end section six*/
+/*---------------------------------------------------------------------------------------*/
